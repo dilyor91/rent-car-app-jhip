@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory = uz.carapp.\
+    rentcarapp.config.SqlTestContainersSpringContextCustomizerFactory,uz.carapp.\
+    rentcarapp.config.TestContainersSpringContextCustomizerFactory,uz.carapp.\
+    rentcarapp.config.KafkaTestContainersSpringContextCustomizerFactory
