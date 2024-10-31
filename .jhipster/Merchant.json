@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "changelogDate": "20241031111643"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "companyName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "brandName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Merchant",
+  "pagination": "pagination",
+  "relationships": [],
+  "service": "serviceImpl"
+}
