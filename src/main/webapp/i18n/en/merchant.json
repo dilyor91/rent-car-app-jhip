@@ -1,0 +1,30 @@
+{
+  "rentcarappjhipApp": {
+    "merchant": {
+      "home": {
+        "title": "Merchants",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Merchant",
+        "createOrEditLabel": "Create or edit a Merchant",
+        "search": "Search for Merchant",
+        "notFound": "No Merchants found"
+      },
+      "created": "A new Merchant is created with identifier {{ param }}",
+      "updated": "A Merchant is updated with identifier {{ param }}",
+      "deleted": "A Merchant is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Merchant {{ id }}?"
+      },
+      "detail": {
+        "title": "Merchant"
+      },
+      "id": "ID",
+      "companyName": "Company Name",
+      "brandName": "Brand Name",
+      "inn": "Inn",
+      "owner": "Owner",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  }
+}
