@@ -4,7 +4,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import sinon from 'sinon';
 
 import { EntityState } from 'app/shared/reducers/reducer.utils';
-import { IMerchant, defaultValue } from 'app/shared/model/merchant.model';
+import { IBrand, defaultValue } from 'app/shared/model/brand.model';
 import reducer, {
   createEntity,
   deleteEntity,
@@ -14,7 +14,7 @@ import reducer, {
   reset,
   searchEntities,
   updateEntity,
-} from './merchant.reducer';
+} from './brand.reducer';
 
 describe('Entities reducer tests', () => {
   function isEmpty(element): boolean {
@@ -24,12 +24,11 @@ describe('Entities reducer tests', () => {
     return Object.keys(element).length === 0;
   }
 
-  const initialState: EntityState<IMerchant> = {
+  const initialState: EntityState<IBrand> = {
     loading: false,
     errorMessage: null,
     entities: [],
     entity: defaultValue,
-    totalItems: 0,
     updating: false,
     updateSuccess: false,
   };
@@ -118,7 +117,7 @@ describe('Entities reducer tests', () => {
 
   describe('Successes', () => {
     it('should fetch all entities', () => {
-      const payload = { data: [{ 1: 'fake1' }, { 2: 'fake2' }], headers: { 'x-total-count': 123 } };
+      const payload = { data: [{ 1: 'fake1' }, { 2: 'fake2' }] };
       expect(
         reducer(undefined, {
           type: getEntities.fulfilled.type,
@@ -127,12 +126,11 @@ describe('Entities reducer tests', () => {
       ).toEqual({
         ...initialState,
         loading: false,
-        totalItems: payload.headers['x-total-count'],
         entities: payload.data,
       });
     });
     it('should search all entities', () => {
-      const payload = { data: [{ 1: 'fake1' }, { 2: 'fake2' }], headers: { 'x-total-count': 123 } };
+      const payload = { data: [{ 1: 'fake1' }, { 2: 'fake2' }] };
       expect(
         reducer(undefined, {
           type: searchEntities.fulfilled.type,
@@ -141,7 +139,6 @@ describe('Entities reducer tests', () => {
       ).toEqual({
         ...initialState,
         loading: false,
-        totalItems: payload.headers['x-total-count'],
         entities: payload.data,
       });
     });
@@ -206,7 +203,7 @@ describe('Entities reducer tests', () => {
       axios.delete = sinon.stub().returns(Promise.resolve(resolvedObject));
     });
 
-    it('dispatches FETCH_MERCHANT_LIST actions', async () => {
+    it('dispatches FETCH_BRAND_LIST actions', async () => {
       const arg = {};
 
       const result = await getEntities(arg)(dispatch, getState, extra);
@@ -215,7 +212,7 @@ describe('Entities reducer tests', () => {
       expect(pendingAction.meta.requestStatus).toBe('pending');
       expect(getEntities.fulfilled.match(result)).toBe(true);
     });
-    it('dispatches SEARCH_MERCHANTS actions', async () => {
+    it('dispatches SEARCH_BRANDS actions', async () => {
       const arg = {};
 
       const result = await searchEntities(arg)(dispatch, getState, extra);
@@ -225,7 +222,7 @@ describe('Entities reducer tests', () => {
       expect(searchEntities.fulfilled.match(result)).toBe(true);
     });
 
-    it('dispatches FETCH_MERCHANT actions', async () => {
+    it('dispatches FETCH_BRAND actions', async () => {
       const arg = 42666;
 
       const result = await getEntity(arg)(dispatch, getState, extra);
@@ -235,8 +232,8 @@ describe('Entities reducer tests', () => {
       expect(getEntity.fulfilled.match(result)).toBe(true);
     });
 
-    it('dispatches CREATE_MERCHANT actions', async () => {
-      const arg = { id: 16734 };
+    it('dispatches CREATE_BRAND actions', async () => {
+      const arg = { id: 6898 };
 
       const result = await createEntity(arg)(dispatch, getState, extra);
 
@@ -245,8 +242,8 @@ describe('Entities reducer tests', () => {
       expect(createEntity.fulfilled.match(result)).toBe(true);
     });
 
-    it('dispatches UPDATE_MERCHANT actions', async () => {
-      const arg = { id: 16734 };
+    it('dispatches UPDATE_BRAND actions', async () => {
+      const arg = { id: 6898 };
 
       const result = await updateEntity(arg)(dispatch, getState, extra);
 
@@ -255,7 +252,7 @@ describe('Entities reducer tests', () => {
       expect(updateEntity.fulfilled.match(result)).toBe(true);
     });
 
-    it('dispatches PARTIAL_UPDATE_MERCHANT actions', async () => {
+    it('dispatches PARTIAL_UPDATE_BRAND actions', async () => {
       const arg = { id: 123 };
 
       const result = await partialUpdateEntity(arg)(dispatch, getState, extra);
@@ -265,7 +262,7 @@ describe('Entities reducer tests', () => {
       expect(partialUpdateEntity.fulfilled.match(result)).toBe(true);
     });
 
-    it('dispatches DELETE_MERCHANT actions', async () => {
+    it('dispatches DELETE_BRAND actions', async () => {
       const arg = 42666;
 
       const result = await deleteEntity(arg)(dispatch, getState, extra);

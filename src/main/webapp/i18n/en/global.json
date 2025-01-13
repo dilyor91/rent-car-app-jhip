@@ -8,7 +8,9 @@
       "entities": {
         "main": "Entities",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
-        "merchant": "Merchant"
+        "merchant": "Merchant",
+        "attachment": "Attachment",
+        "brand": "Brand"
       },
       "account": {
         "main": "Account",

@@ -51,6 +51,8 @@ public class CacheConfiguration {
             createCache(cm, uz.carapp.rentcarapp.domain.Authority.class.getName());
             createCache(cm, uz.carapp.rentcarapp.domain.User.class.getName() + ".authorities");
             createCache(cm, uz.carapp.rentcarapp.domain.Merchant.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.Attachment.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.Brand.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
