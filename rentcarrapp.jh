@@ -8,6 +8,23 @@ entity Merchant {
    address String
 }
 
+entity Attachment {
+   fileName String
+   fileSize Integer
+   originalFileName String
+   path String
+   ext String
+}
+
+entity Brand {
+   name String required
+   status Boolean
+}
+
+relationship OneToOne {
+    Brand{attachment} to Attachment
+}
+
 // Set pagination options
 paginate Merchant with pagination
 

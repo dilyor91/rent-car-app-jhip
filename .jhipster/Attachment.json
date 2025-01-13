@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20250113055639"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "originalFileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "path",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ext",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Attachment",
+  "relationships": [],
+  "service": "serviceImpl"
+}
