@@ -53,6 +53,11 @@ public class CacheConfiguration {
             createCache(cm, uz.carapp.rentcarapp.domain.Merchant.class.getName());
             createCache(cm, uz.carapp.rentcarapp.domain.Attachment.class.getName());
             createCache(cm, uz.carapp.rentcarapp.domain.Brand.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.CarBody.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.Category.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.CarClass.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.Vehicle.class.getName());
+            createCache(cm, uz.carapp.rentcarapp.domain.Parametr.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

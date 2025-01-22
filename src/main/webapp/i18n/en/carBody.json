@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "carBody": {
+      "home": {
+        "title": "Car Bodies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Body",
+        "createOrEditLabel": "Create or edit a Car Body",
+        "search": "Search for Car Body",
+        "notFound": "No Car Bodies found"
+      },
+      "created": "A new Car Body is created with identifier {{ param }}",
+      "updated": "A Car Body is updated with identifier {{ param }}",
+      "deleted": "A Car Body is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Body {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Body"
+      },
+      "id": "ID",
+      "name": "Name",
+      "status": "Status"
+    }
+  }
+}

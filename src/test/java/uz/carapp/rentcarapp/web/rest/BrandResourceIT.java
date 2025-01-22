@@ -343,6 +343,8 @@ class BrandResourceIT {
         Brand partialUpdatedBrand = new Brand();
         partialUpdatedBrand.setId(brand.getId());
 
+        partialUpdatedBrand.name(UPDATED_NAME).status(UPDATED_STATUS);
+
         restBrandMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedBrand.getId())

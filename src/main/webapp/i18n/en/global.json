@@ -10,7 +10,12 @@
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
         "merchant": "Merchant",
         "attachment": "Attachment",
-        "brand": "Brand"
+        "brand": "Brand",
+        "carBody": "Car Body",
+        "category": "Category",
+        "carClass": "Car Class",
+        "vehicle": "Vehicle",
+        "parametr": "Parametr"
       },
       "account": {
         "main": "Account",

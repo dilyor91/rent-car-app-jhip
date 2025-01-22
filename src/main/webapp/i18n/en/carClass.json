@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "carClass": {
+      "home": {
+        "title": "Car Classes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Class",
+        "createOrEditLabel": "Create or edit a Car Class",
+        "search": "Search for Car Class",
+        "notFound": "No Car Classes found"
+      },
+      "created": "A new Car Class is created with identifier {{ param }}",
+      "updated": "A Car Class is updated with identifier {{ param }}",
+      "deleted": "A Car Class is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Class {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Class"
+      },
+      "id": "ID",
+      "name": "Name",
+      "status": "Status"
+    }
+  }
+}
