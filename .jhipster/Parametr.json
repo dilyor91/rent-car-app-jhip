@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20250122072016"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "Parametr",
+  "pagination": "pagination",
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -17,7 +17,7 @@ entity Attachment {
 }
 
 entity Brand {
-   name String required
+   name String required                                           
    status Boolean
 }
 
@@ -25,8 +25,34 @@ relationship OneToOne {
     Brand{attachment} to Attachment
 }
 
+entity CarBody {
+   name String required
+   status Boolean
+}
+
+entity Category {
+  name String required
+  status Boolean
+}
+
+entity CarClass {
+  name String required
+  status Boolean
+}
+
+entity Vehicle {
+  name String required
+  status Boolean
+}
+
+entity Parametr {
+  name String required
+  status Boolean
+}
+
+
 // Set pagination options
-paginate Merchant with pagination
+paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct

@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "parametr": {
+      "home": {
+        "title": "Parametrs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Parametr",
+        "createOrEditLabel": "Create or edit a Parametr",
+        "search": "Search for Parametr",
+        "notFound": "No Parametrs found"
+      },
+      "created": "A new Parametr is created with identifier {{ param }}",
+      "updated": "A Parametr is updated with identifier {{ param }}",
+      "deleted": "A Parametr is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Parametr {{ id }}?"
+      },
+      "detail": {
+        "title": "Parametr"
+      },
+      "id": "ID",
+      "name": "Name",
+      "status": "Status"
+    }
+  }
+}

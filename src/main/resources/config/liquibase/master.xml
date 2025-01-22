@@ -20,6 +20,11 @@
     <include file="config/liquibase/changelog/20241031111643_added_entity_Merchant.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250113055639_added_entity_Attachment.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250113055640_added_entity_Brand.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250122072012_added_entity_CarBody.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250122072013_added_entity_Category.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250122072014_added_entity_CarClass.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250122072015_added_entity_Vehicle.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250122072016_added_entity_Parametr.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="config/liquibase/changelog/20250113055640_added_entity_constraints_Brand.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
