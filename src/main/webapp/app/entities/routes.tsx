@@ -10,6 +10,8 @@ import Category from './category';
 import CarClass from './car-class';
 import Vehicle from './vehicle';
 import Parametr from './parametr';
+import MerchantBranch from './merchant-branch';
+import MerchantRole from './merchant-role';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -25,6 +27,8 @@ export default () => {
         <Route path="car-class/*" element={<CarClass />} />
         <Route path="vehicle/*" element={<Vehicle />} />
         <Route path="parametr/*" element={<Parametr />} />
+        <Route path="merchant-branch/*" element={<MerchantBranch />} />
+        <Route path="merchant-role/*" element={<MerchantRole />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>

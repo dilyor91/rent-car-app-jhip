@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20250211054813"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "merchantRoleType",
+      "fieldType": "MerchantRoleEnum",
+      "fieldValues": "OWNER,MERCHANT_ADMIN,MERCHANT_SALES,MERCHANT_CONTENT"
+    }
+  ],
+  "name": "MerchantRole",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "merchant",
+      "relationshipName": "merchant",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "merchantBranch",
+      "relationshipName": "merchantBranch",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

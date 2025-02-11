@@ -15,7 +15,9 @@
         "category": "Category",
         "carClass": "Car Class",
         "vehicle": "Vehicle",
-        "parametr": "Parametr"
+        "parametr": "Parametr",
+        "merchantBranch": "Merchant Branch",
+        "merchantRole": "Merchant Role"
       },
       "account": {
         "main": "Account",

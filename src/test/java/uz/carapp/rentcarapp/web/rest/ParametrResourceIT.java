@@ -347,6 +347,8 @@ class ParametrResourceIT {
         Parametr partialUpdatedParametr = new Parametr();
         partialUpdatedParametr.setId(parametr.getId());
 
+        partialUpdatedParametr.status(UPDATED_STATUS);
+
         restParametrMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedParametr.getId())
