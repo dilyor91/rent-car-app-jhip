@@ -52,7 +52,7 @@ entity Parametr {
 
 
 // Set pagination options
-paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr with pagination
+paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr, MerchantRole with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct
