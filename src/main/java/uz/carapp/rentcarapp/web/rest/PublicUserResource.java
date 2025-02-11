@@ -1,7 +1,6 @@
 package uz.carapp.rentcarapp.web.rest;
 
 import java.util.*;
-import java.util.Collections;
 import java.util.stream.StreamSupport;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

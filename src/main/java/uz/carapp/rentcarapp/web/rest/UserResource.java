@@ -5,7 +5,6 @@ import jakarta.validation.constraints.Pattern;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.*;
-import java.util.Collections;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -96,7 +95,7 @@ public class UserResource {
     /**
      * {@code POST  /admin/users}  : Creates a new user.
      * <p>
-     * Creates a new user if the login and email are not already used, and sends an
+     * Creates a new user if the login and email are not already used, and sends a
      * mail with an activation link.
      * The user needs to be activated on creation.
      *

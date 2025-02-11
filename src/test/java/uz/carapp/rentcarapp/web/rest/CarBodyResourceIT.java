@@ -343,7 +343,7 @@ class CarBodyResourceIT {
         CarBody partialUpdatedCarBody = new CarBody();
         partialUpdatedCarBody.setId(carBody.getId());
 
-        partialUpdatedCarBody.status(UPDATED_STATUS);
+        partialUpdatedCarBody.name(UPDATED_NAME).status(UPDATED_STATUS);
 
         restCarBodyMockMvc
             .perform(

@@ -343,6 +343,8 @@ class VehicleResourceIT {
         Vehicle partialUpdatedVehicle = new Vehicle();
         partialUpdatedVehicle.setId(vehicle.getId());
 
+        partialUpdatedVehicle.name(UPDATED_NAME).status(UPDATED_STATUS);
+
         restVehicleMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedVehicle.getId())

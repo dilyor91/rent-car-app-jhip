@@ -1,0 +1,30 @@
+{
+  "rentcarappjhipApp": {
+    "merchantBranch": {
+      "home": {
+        "title": "Merchant Branches",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Merchant Branch",
+        "createOrEditLabel": "Create or edit a Merchant Branch",
+        "search": "Search for Merchant Branch",
+        "notFound": "No Merchant Branches found"
+      },
+      "created": "A new Merchant Branch is created with identifier {{ param }}",
+      "updated": "A Merchant Branch is updated with identifier {{ param }}",
+      "deleted": "A Merchant Branch is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Merchant Branch {{ id }}?"
+      },
+      "detail": {
+        "title": "Merchant Branch"
+      },
+      "id": "ID",
+      "name": "Name",
+      "address": "Address",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "phone": "Phone",
+      "merchant": "Merchant"
+    }
+  }
+}

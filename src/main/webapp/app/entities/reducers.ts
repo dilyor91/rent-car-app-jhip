@@ -6,6 +6,8 @@ import category from 'app/entities/category/category.reducer';
 import carClass from 'app/entities/car-class/car-class.reducer';
 import vehicle from 'app/entities/vehicle/vehicle.reducer';
 import parametr from 'app/entities/parametr/parametr.reducer';
+import merchantBranch from 'app/entities/merchant-branch/merchant-branch.reducer';
+import merchantRole from 'app/entities/merchant-role/merchant-role.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -17,6 +19,8 @@ const entitiesReducers = {
   carClass,
   vehicle,
   parametr,
+  merchantBranch,
+  merchantRole,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 
