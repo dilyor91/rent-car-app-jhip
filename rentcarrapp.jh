@@ -8,6 +8,20 @@ entity Merchant {
    address String
 }
 
+entity MerchatRole {
+   merchantRoleType MerchantRoleEnum
+}
+
+enum MerchantRoleEnum {
+   OWNER, MERCHANT_ADMIN, MERCHANT_SALES, MERCHANT_CONTENT
+}
+
+relationship ManyToOne {
+    MerchantRole{user} to User
+    MerchantRole{merchant} to Merchant
+    MerchantRole{merchantBranch} to MerchantBranch
+}
+
 entity Attachment {
    fileName String
    fileSize Integer
@@ -52,7 +66,7 @@ entity Parametr {
 
 
 // Set pagination options
-paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr with pagination
+paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr, MerchantRole with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct
