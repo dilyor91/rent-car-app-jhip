@@ -1,0 +1,29 @@
+{
+  "rentcarappjhipApp": {
+    "param": {
+      "home": {
+        "title": "Params",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Param",
+        "createOrEditLabel": "Create or edit a Param",
+        "search": "Search for Param",
+        "notFound": "No Params found"
+      },
+      "created": "A new Param is created with identifier {{ param }}",
+      "updated": "A Param is updated with identifier {{ param }}",
+      "deleted": "A Param is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Param {{ id }}?"
+      },
+      "detail": {
+        "title": "Param"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "fieldType": "Field Type",
+      "status": "Status",
+      "isDefault": "Is Default"
+    }
+  }
+}

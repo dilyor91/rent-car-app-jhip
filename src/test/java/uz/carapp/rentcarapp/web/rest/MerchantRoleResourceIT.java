@@ -326,8 +326,6 @@ class MerchantRoleResourceIT {
         MerchantRole partialUpdatedMerchantRole = new MerchantRole();
         partialUpdatedMerchantRole.setId(merchantRole.getId());
 
-        partialUpdatedMerchantRole.merchantRoleType(UPDATED_MERCHANT_ROLE_TYPE);
-
         restMerchantRoleMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedMerchantRole.getId())

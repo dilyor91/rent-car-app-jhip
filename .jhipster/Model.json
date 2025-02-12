@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20250212073457"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "Model",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "brand",
+      "relationshipName": "brand",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

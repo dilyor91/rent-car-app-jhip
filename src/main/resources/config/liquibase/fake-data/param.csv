@@ -1,0 +1,11 @@
+id;name;description;field_type;status;is_default
+1;teeming now;lend;YEAR_FIELD;true;true
+2;superficial;list;INT_FIELD;true;true
+3;stake unto even;each through ha;SELECT_FIELD;true;true
+4;for mash;tarragon righteously gee;INPUT_FIELD;true;true
+5;crafty mature birdcage;curl smoothly unfit;YEAR_FIELD;false;false
+6;now trim with;weakly instead acquaintance;INT_FIELD;true;false
+7;gosh blah;new;YEAR_FIELD;true;false
+8;wearily rubric lest;premium furiously;SELECT_FIELD;false;false
+9;genuine;punctuation;INPUT_FIELD;false;true
+10;once;which that;SELECT_FIELD;true;true
