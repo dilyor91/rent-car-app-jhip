@@ -17,7 +17,12 @@
         "vehicle": "Vehicle",
         "parametr": "Parametr",
         "merchantBranch": "Merchant Branch",
-        "merchantRole": "Merchant Role"
+        "merchantRole": "Merchant Role",
+        "model": "Model",
+        "color": "Color",
+        "param": "Param",
+        "paramValue": "Param Value",
+        "translation": "Translation"
       },
       "account": {
         "main": "Account",

@@ -1,0 +1,14 @@
+{
+  "rentcarappjhipApp": {
+    "FieldTypeEnum": {
+      "null": "",
+      "INPUT_FIELD": "INPUT_FIELD",
+      "TEXT_FIELD": "TEXT_FIELD",
+      "INT_FIELD": "INT_FIELD",
+      "YEAR_FIELD": "YEAR_FIELD",
+      "DATE_FIELD": "DATE_FIELD",
+      "DATETIME_FIELD": "DATETIME_FIELD",
+      "SELECT_FIELD": "SELECT_FIELD"
+    }
+  }
+}

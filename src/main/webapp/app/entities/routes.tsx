@@ -12,6 +12,11 @@ import Vehicle from './vehicle';
 import Parametr from './parametr';
 import MerchantBranch from './merchant-branch';
 import MerchantRole from './merchant-role';
+import Model from './model';
+import Color from './color';
+import Param from './param';
+import ParamValue from './param-value';
+import Translation from './translation';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -29,6 +34,11 @@ export default () => {
         <Route path="parametr/*" element={<Parametr />} />
         <Route path="merchant-branch/*" element={<MerchantBranch />} />
         <Route path="merchant-role/*" element={<MerchantRole />} />
+        <Route path="model/*" element={<Model />} />
+        <Route path="color/*" element={<Color />} />
+        <Route path="param/*" element={<Param />} />
+        <Route path="param-value/*" element={<ParamValue />} />
+        <Route path="translation/*" element={<Translation />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>

@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20250212073458"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hex",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "Color",
+  "pagination": "pagination",
+  "relationships": [],
+  "service": "serviceImpl"
+}

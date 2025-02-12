@@ -50,34 +50,56 @@ relationship OneToOne {
     Brand{attachment} to Attachment
 }
 
-entity CarBody {
-   name String required
+entity Model {
+   name String
    status Boolean
 }
 
-entity Category {
-  name String required
-  status Boolean
+entity Color {
+   name String 
+   hex  String
+   status Boolean
+} 
+
+entity Param {
+   name String 
+   description String
+   fieldType FieldTypeEnum
+   status Boolean
+   isDefault Boolean
 }
 
-entity CarClass {
-  name String required
-  status Boolean
+enum FieldTypeEnum {
+   INPUT_FIELD, TEXT_FIELD, INT_FIELD, YEAR_FIELD, DATE_FIELD, DATETIME_FIELD, SELECT_FIELD
 }
 
-entity Vehicle {
-  name String required
-  status Boolean
+entity ParamValue {
+   name String
+   status Boolean
 }
 
-entity Parametr {
-  name String required
-  status Boolean
+entity Translation {
+   entityType String
+   entityId Long
+   lang LanguageEnum
+   value String
+   description String
 }
+
+enum LanguageEnum {
+   UZ, RU, EN
+}
+
+relationship ManyToOne {
+   Model{brand} to Brand
+   ParamValue{param} to Param
+}
+
+
 
 
 // Set pagination options
-paginate Merchant, CarBody, Category, CarClass, Vehicle, Parametr, MerchantRole with pagination
+paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct

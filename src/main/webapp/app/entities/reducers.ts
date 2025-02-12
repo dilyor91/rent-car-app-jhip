@@ -8,6 +8,11 @@ import vehicle from 'app/entities/vehicle/vehicle.reducer';
 import parametr from 'app/entities/parametr/parametr.reducer';
 import merchantBranch from 'app/entities/merchant-branch/merchant-branch.reducer';
 import merchantRole from 'app/entities/merchant-role/merchant-role.reducer';
+import model from 'app/entities/model/model.reducer';
+import color from 'app/entities/color/color.reducer';
+import param from 'app/entities/param/param.reducer';
+import paramValue from 'app/entities/param-value/param-value.reducer';
+import translation from 'app/entities/translation/translation.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -21,6 +26,11 @@ const entitiesReducers = {
   parametr,
   merchantBranch,
   merchantRole,
+  model,
+  color,
+  param,
+  paramValue,
+  translation,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 

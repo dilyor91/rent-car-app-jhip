@@ -1,0 +1,29 @@
+{
+  "rentcarappjhipApp": {
+    "translation": {
+      "home": {
+        "title": "Translations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Translation",
+        "createOrEditLabel": "Create or edit a Translation",
+        "search": "Search for Translation",
+        "notFound": "No Translations found"
+      },
+      "created": "A new Translation is created with identifier {{ param }}",
+      "updated": "A Translation is updated with identifier {{ param }}",
+      "deleted": "A Translation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Translation {{ id }}?"
+      },
+      "detail": {
+        "title": "Translation"
+      },
+      "id": "ID",
+      "entityType": "Entity Type",
+      "entityId": "Entity Id",
+      "lang": "Lang",
+      "value": "Value",
+      "description": "Description"
+    }
+  }
+}
