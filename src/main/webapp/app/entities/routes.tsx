@@ -17,6 +17,8 @@ import Color from './color';
 import Param from './param';
 import ParamValue from './param-value';
 import Translation from './translation';
+import Car from './car';
+import CarParam from './car-param';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -39,6 +41,8 @@ export default () => {
         <Route path="param/*" element={<Param />} />
         <Route path="param-value/*" element={<ParamValue />} />
         <Route path="translation/*" element={<Translation />} />
+        <Route path="car/*" element={<Car />} />
+        <Route path="car-param/*" element={<CarParam />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>

@@ -1,0 +1,40 @@
+{
+  "annotations": {
+    "changelogDate": "20250214100803"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "stateNumberPlate",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "deposit",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Car",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "model",
+      "relationshipName": "model",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "merchant",
+      "relationshipName": "merchant",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "merchantBranch",
+      "relationshipName": "merchantBranch",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -22,7 +22,9 @@
         "color": "Color",
         "param": "Param",
         "paramValue": "Param Value",
-        "translation": "Translation"
+        "translation": "Translation",
+        "car": "Car",
+        "carParam": "Car Param"
       },
       "account": {
         "main": "Account",
