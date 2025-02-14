@@ -13,6 +13,8 @@ import color from 'app/entities/color/color.reducer';
 import param from 'app/entities/param/param.reducer';
 import paramValue from 'app/entities/param-value/param-value.reducer';
 import translation from 'app/entities/translation/translation.reducer';
+import car from 'app/entities/car/car.reducer';
+import carParam from 'app/entities/car-param/car-param.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -31,6 +33,8 @@ const entitiesReducers = {
   param,
   paramValue,
   translation,
+  car,
+  carParam,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 

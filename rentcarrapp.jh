@@ -26,6 +26,25 @@ enum MerchantRoleEnum {
 
 entity User {}
 
+entity Car {
+   stateNumberPlate Integer
+   deposit Integer
+}
+
+entity CarParam {
+   paramItemValue String
+   paramValue String
+}
+
+relationship ManyToOne {
+    Car{model} to Model
+    Car{merchant} to Merchant
+    Car{merchantBranch} to MerchantBranch
+    CarParam{car} to Car
+    CarParam{param} to Param
+}
+
+
 relationship ManyToOne {
     MerchantBranch{merchant} to Merchant
     MerchantRole{user} to User
@@ -99,7 +118,7 @@ relationship ManyToOne {
 
 
 // Set pagination options
-paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model with pagination
+paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct
