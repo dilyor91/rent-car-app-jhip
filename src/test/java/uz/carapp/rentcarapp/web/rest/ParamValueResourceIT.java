@@ -326,6 +326,8 @@ class ParamValueResourceIT {
         ParamValue partialUpdatedParamValue = new ParamValue();
         partialUpdatedParamValue.setId(paramValue.getId());
 
+        partialUpdatedParamValue.status(UPDATED_STATUS);
+
         restParamValueMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedParamValue.getId())

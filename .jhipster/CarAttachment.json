@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250218110818"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "isMain",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "CarAttachment",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "car",
+      "relationshipName": "car",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "attachment",
+      "relationshipName": "attachment",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

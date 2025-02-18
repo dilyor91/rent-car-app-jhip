@@ -322,7 +322,7 @@ class ModelResourceIT {
         Model partialUpdatedModel = new Model();
         partialUpdatedModel.setId(model.getId());
 
-        partialUpdatedModel.status(UPDATED_STATUS);
+        partialUpdatedModel.name(UPDATED_NAME);
 
         restModelMockMvc
             .perform(
