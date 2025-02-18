@@ -385,7 +385,7 @@ class MerchantResourceIT {
         Merchant partialUpdatedMerchant = new Merchant();
         partialUpdatedMerchant.setId(merchant.getId());
 
-        partialUpdatedMerchant.owner(UPDATED_OWNER).address(UPDATED_ADDRESS);
+        partialUpdatedMerchant.companyName(UPDATED_COMPANY_NAME).inn(UPDATED_INN).address(UPDATED_ADDRESS);
 
         restMerchantMockMvc
             .perform(

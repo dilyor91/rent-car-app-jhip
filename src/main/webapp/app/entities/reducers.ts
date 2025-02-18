@@ -15,6 +15,8 @@ import paramValue from 'app/entities/param-value/param-value.reducer';
 import translation from 'app/entities/translation/translation.reducer';
 import car from 'app/entities/car/car.reducer';
 import carParam from 'app/entities/car-param/car-param.reducer';
+import carTemplate from 'app/entities/car-template/car-template.reducer';
+import carTemplateParam from 'app/entities/car-template-param/car-template-param.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -35,6 +37,8 @@ const entitiesReducers = {
   translation,
   car,
   carParam,
+  carTemplate,
+  carTemplateParam,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 

@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20250218060209"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "paramVal",
+      "fieldType": "String"
+    }
+  ],
+  "name": "CarTemplateParam",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "carTemplate",
+      "relationshipName": "carTemplate",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "param",
+      "relationshipName": "param",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "paramValue",
+      "relationshipName": "paramValue",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

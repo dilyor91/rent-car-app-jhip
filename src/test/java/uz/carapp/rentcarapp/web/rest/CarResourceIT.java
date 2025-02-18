@@ -318,7 +318,7 @@ class CarResourceIT {
         Car partialUpdatedCar = new Car();
         partialUpdatedCar.setId(car.getId());
 
-        partialUpdatedCar.stateNumberPlate(UPDATED_STATE_NUMBER_PLATE).deposit(UPDATED_DEPOSIT);
+        partialUpdatedCar.deposit(UPDATED_DEPOSIT);
 
         restCarMockMvc
             .perform(

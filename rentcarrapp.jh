@@ -114,11 +114,28 @@ relationship ManyToOne {
    ParamValue{param} to Param
 }
 
+entity CarTemplate {
+   status Boolean
+}
+
+entity CarTemplateParam {
+   paramVal String
+}
+
+relationship ManyToOne {
+   CarTemplate{model} to Model
+   CarTemplateParam{carTemplate} to CarTemplate
+   CarTemplateParam{param} to Param
+   CarTemplateParam{paramValue} to ParamValue
+}
+
+
+
 
 
 
 // Set pagination options
-paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam with pagination
+paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam, CarTemplate, CarTemplateParam with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct

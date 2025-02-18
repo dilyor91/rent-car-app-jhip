@@ -1,0 +1,28 @@
+{
+  "rentcarappjhipApp": {
+    "carTemplateParam": {
+      "home": {
+        "title": "Car Template Params",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Template Param",
+        "createOrEditLabel": "Create or edit a Car Template Param",
+        "search": "Search for Car Template Param",
+        "notFound": "No Car Template Params found"
+      },
+      "created": "A new Car Template Param is created with identifier {{ param }}",
+      "updated": "A Car Template Param is updated with identifier {{ param }}",
+      "deleted": "A Car Template Param is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Template Param {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Template Param"
+      },
+      "id": "ID",
+      "paramVal": "Param Val",
+      "carTemplate": "Car Template",
+      "param": "Param",
+      "paramValue": "Param Value"
+    }
+  }
+}
