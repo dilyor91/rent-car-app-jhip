@@ -321,8 +321,6 @@ class CarTemplateResourceIT {
         CarTemplate partialUpdatedCarTemplate = new CarTemplate();
         partialUpdatedCarTemplate.setId(carTemplate.getId());
 
-        partialUpdatedCarTemplate.status(UPDATED_STATUS);
-
         restCarTemplateMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedCarTemplate.getId())

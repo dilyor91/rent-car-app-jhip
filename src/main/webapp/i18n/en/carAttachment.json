@@ -1,0 +1,27 @@
+{
+  "rentcarappjhipApp": {
+    "carAttachment": {
+      "home": {
+        "title": "Car Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Attachment",
+        "createOrEditLabel": "Create or edit a Car Attachment",
+        "search": "Search for Car Attachment",
+        "notFound": "No Car Attachments found"
+      },
+      "created": "A new Car Attachment is created with identifier {{ param }}",
+      "updated": "A Car Attachment is updated with identifier {{ param }}",
+      "deleted": "A Car Attachment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Attachment {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Attachment"
+      },
+      "id": "ID",
+      "isMain": "Is Main",
+      "car": "Car",
+      "attachment": "Attachment"
+    }
+  }
+}

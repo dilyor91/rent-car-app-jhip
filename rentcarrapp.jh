@@ -129,13 +129,21 @@ relationship ManyToOne {
    CarTemplateParam{paramValue} to ParamValue
 }
 
+entity CarAttachment {
+   isMain Boolean 
+}
+
+relationship ManyToOne {
+   CarAttachment{car} to Car
+   CarAttachment{attachment} to Attachment
+}
 
 
 
 
 
 // Set pagination options
-paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam, CarTemplate, CarTemplateParam with pagination
+paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam, CarTemplate, CarTemplateParam, CarAttachment with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct
