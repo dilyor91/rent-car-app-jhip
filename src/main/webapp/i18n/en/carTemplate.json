@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "carTemplate": {
+      "home": {
+        "title": "Car Templates",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Template",
+        "createOrEditLabel": "Create or edit a Car Template",
+        "search": "Search for Car Template",
+        "notFound": "No Car Templates found"
+      },
+      "created": "A new Car Template is created with identifier {{ param }}",
+      "updated": "A Car Template is updated with identifier {{ param }}",
+      "deleted": "A Car Template is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Template {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Template"
+      },
+      "id": "ID",
+      "status": "Status",
+      "model": "Model"
+    }
+  }
+}

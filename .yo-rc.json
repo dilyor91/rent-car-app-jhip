@@ -33,14 +33,16 @@
       "ParamValue",
       "Translation",
       "Car",
-      "CarParam"
+      "CarParam",
+      "CarTemplate",
+      "CarTemplateParam"
     ],
     "gitCompany": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "8.9.0",
     "jwtSecretKey": "N2E1Mjk3NGZiYjQ2YzlkOTBjMGQwNzIyN2U5MWZmNzQ3YmQ1MmU0ODJlZmYxZDBkZmViNTI5ZTFhNjk2Mjk4NjgwZTRiZTJhZjkyNzBiZWE3OTczNWQxNWQ0YjA2YTJlNWZmNDUyYjI2MWUwMzZhNjc3NWY1NWYwYTc3ZTQ3MmE=",
     "languages": ["en"],
-    "lastLiquibaseTimestamp": 1739527684000,
+    "lastLiquibaseTimestamp": 1739858529000,
     "messageBroker": "kafka",
     "nativeLanguage": "en",
     "packageFolder": "uz/carapp/rentcarapp",

@@ -24,7 +24,9 @@
         "paramValue": "Param Value",
         "translation": "Translation",
         "car": "Car",
-        "carParam": "Car Param"
+        "carParam": "Car Param",
+        "carTemplate": "Car Template",
+        "carTemplateParam": "Car Template Param"
       },
       "account": {
         "main": "Account",

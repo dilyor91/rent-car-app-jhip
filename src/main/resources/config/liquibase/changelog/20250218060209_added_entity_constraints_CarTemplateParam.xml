@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity CarTemplateParam.
+    -->
+    <changeSet id="20250218060209-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="car_template_id"
+                                 baseTableName="car_template_param"
+                                 constraintName="fk_car_template_param__car_template_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="car_template"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="param_id"
+                                 baseTableName="car_template_param"
+                                 constraintName="fk_car_template_param__param_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="param"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="param_value_id"
+                                 baseTableName="car_template_param"
+                                 constraintName="fk_car_template_param__param_value_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="param_value"
+                                 />
+    </changeSet>
+</databaseChangeLog>
