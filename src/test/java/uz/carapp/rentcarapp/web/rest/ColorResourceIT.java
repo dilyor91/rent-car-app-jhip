@@ -327,7 +327,7 @@ class ColorResourceIT {
         Color partialUpdatedColor = new Color();
         partialUpdatedColor.setId(color.getId());
 
-        partialUpdatedColor.hex(UPDATED_HEX);
+        partialUpdatedColor.name(UPDATED_NAME).status(UPDATED_STATUS);
 
         restColorMockMvc
             .perform(

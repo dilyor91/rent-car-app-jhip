@@ -321,8 +321,6 @@ class CarAttachmentResourceIT {
         CarAttachment partialUpdatedCarAttachment = new CarAttachment();
         partialUpdatedCarAttachment.setId(carAttachment.getId());
 
-        partialUpdatedCarAttachment.isMain(UPDATED_IS_MAIN);
-
         restCarAttachmentMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedCarAttachment.getId())
