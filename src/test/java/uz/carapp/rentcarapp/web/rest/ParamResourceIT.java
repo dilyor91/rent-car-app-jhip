@@ -353,7 +353,7 @@ class ParamResourceIT {
         Param partialUpdatedParam = new Param();
         partialUpdatedParam.setId(param.getId());
 
-        partialUpdatedParam.name(UPDATED_NAME).fieldType(UPDATED_FIELD_TYPE).status(UPDATED_STATUS);
+        partialUpdatedParam.description(UPDATED_DESCRIPTION).isDefault(UPDATED_IS_DEFAULT);
 
         restParamMockMvc
             .perform(

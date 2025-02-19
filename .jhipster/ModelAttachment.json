@@ -1,0 +1,30 @@
+{
+  "annotations": {
+    "changelogDate": "20250219102641"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "isMain",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "ModelAttachment",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "model",
+      "relationshipName": "model",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "attachment",
+      "relationshipName": "attachment",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

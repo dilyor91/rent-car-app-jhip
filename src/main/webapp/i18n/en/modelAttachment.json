@@ -1,0 +1,27 @@
+{
+  "rentcarappjhipApp": {
+    "modelAttachment": {
+      "home": {
+        "title": "Model Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Model Attachment",
+        "createOrEditLabel": "Create or edit a Model Attachment",
+        "search": "Search for Model Attachment",
+        "notFound": "No Model Attachments found"
+      },
+      "created": "A new Model Attachment is created with identifier {{ param }}",
+      "updated": "A Model Attachment is updated with identifier {{ param }}",
+      "deleted": "A Model Attachment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Model Attachment {{ id }}?"
+      },
+      "detail": {
+        "title": "Model Attachment"
+      },
+      "id": "ID",
+      "isMain": "Is Main",
+      "model": "Model",
+      "attachment": "Attachment"
+    }
+  }
+}

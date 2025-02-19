@@ -27,7 +27,8 @@
         "carParam": "Car Param",
         "carTemplate": "Car Template",
         "carTemplateParam": "Car Template Param",
-        "carAttachment": "Car Attachment"
+        "carAttachment": "Car Attachment",
+        "modelAttachment": "Model Attachment"
       },
       "account": {
         "main": "Account",
