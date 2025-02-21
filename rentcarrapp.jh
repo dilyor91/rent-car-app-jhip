@@ -148,7 +148,7 @@ relationship ManyToOne {
 }
 
 entity CarMileage {
-   value Decimal
+   value BigDecimal
    unit MileageEnum
    date Instant
 }
