@@ -147,6 +147,19 @@ relationship ManyToOne {
    ModelAttachment{attachment} to Attachment
 }
 
+entity CarMileage {
+   value Decimal
+   unit MileageEnum
+   date Instant
+}
+
+relationship ManyToOne {
+   CarMileage{car} to Car
+}
+
+enum MileageEnum {
+  KILOMETRES, MILES
+}
 
 
 
