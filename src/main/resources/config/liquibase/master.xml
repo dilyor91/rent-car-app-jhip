@@ -39,6 +39,7 @@
     <include file="config/liquibase/changelog/20250218060209_added_entity_CarTemplateParam.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250218110818_added_entity_CarAttachment.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250219102641_added_entity_ModelAttachment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250221055613_added_entity_CarMileage.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="config/liquibase/changelog/20250113055640_added_entity_constraints_Brand.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250211054812_added_entity_constraints_MerchantBranch.xml" relativeToChangelogFile="false"/>
@@ -51,6 +52,7 @@
     <include file="config/liquibase/changelog/20250218060209_added_entity_constraints_CarTemplateParam.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250218110818_added_entity_constraints_CarAttachment.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20250219102641_added_entity_constraints_ModelAttachment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20250221055613_added_entity_constraints_CarMileage.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

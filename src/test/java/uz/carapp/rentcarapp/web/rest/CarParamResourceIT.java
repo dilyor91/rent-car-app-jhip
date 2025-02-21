@@ -326,7 +326,7 @@ class CarParamResourceIT {
         CarParam partialUpdatedCarParam = new CarParam();
         partialUpdatedCarParam.setId(carParam.getId());
 
-        partialUpdatedCarParam.paramItemValue(UPDATED_PARAM_ITEM_VALUE).paramValue(UPDATED_PARAM_VALUE);
+        partialUpdatedCarParam.paramItemValue(UPDATED_PARAM_ITEM_VALUE);
 
         restCarParamMockMvc
             .perform(

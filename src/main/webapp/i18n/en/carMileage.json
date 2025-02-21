@@ -1,0 +1,28 @@
+{
+  "rentcarappjhipApp": {
+    "carMileage": {
+      "home": {
+        "title": "Car Mileages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Car Mileage",
+        "createOrEditLabel": "Create or edit a Car Mileage",
+        "search": "Search for Car Mileage",
+        "notFound": "No Car Mileages found"
+      },
+      "created": "A new Car Mileage is created with identifier {{ param }}",
+      "updated": "A Car Mileage is updated with identifier {{ param }}",
+      "deleted": "A Car Mileage is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Car Mileage {{ id }}?"
+      },
+      "detail": {
+        "title": "Car Mileage"
+      },
+      "id": "ID",
+      "value": "Value",
+      "unit": "Unit",
+      "date": "Date",
+      "car": "Car"
+    }
+  }
+}

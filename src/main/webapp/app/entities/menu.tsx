@@ -67,6 +67,9 @@ const EntitiesMenu = () => {
       <MenuItem icon="asterisk" to="/model-attachment">
         <Translate contentKey="global.menu.entities.modelAttachment" />
       </MenuItem>
+      <MenuItem icon="asterisk" to="/car-mileage">
+        <Translate contentKey="global.menu.entities.carMileage" />
+      </MenuItem>
       {/* jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here */}
     </>
   );

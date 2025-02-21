@@ -356,7 +356,7 @@ class MerchantBranchResourceIT {
         MerchantBranch partialUpdatedMerchantBranch = new MerchantBranch();
         partialUpdatedMerchantBranch.setId(merchantBranch.getId());
 
-        partialUpdatedMerchantBranch.address(UPDATED_ADDRESS).longitude(UPDATED_LONGITUDE).phone(UPDATED_PHONE);
+        partialUpdatedMerchantBranch.longitude(UPDATED_LONGITUDE);
 
         restMerchantBranchMockMvc
             .perform(

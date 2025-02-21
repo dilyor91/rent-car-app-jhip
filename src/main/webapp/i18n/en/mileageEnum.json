@@ -1,0 +1,9 @@
+{
+  "rentcarappjhipApp": {
+    "MileageEnum": {
+      "null": "",
+      "KILOMETRES": "KILOMETRES",
+      "MILES": "MILES"
+    }
+  }
+}

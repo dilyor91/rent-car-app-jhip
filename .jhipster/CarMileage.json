@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20250221055613"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "unit",
+      "fieldType": "MileageEnum",
+      "fieldValues": "KILOMETRES,MILES"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    }
+  ],
+  "name": "CarMileage",
+  "relationships": [
+    {
+      "otherEntityName": "car",
+      "relationshipName": "car",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

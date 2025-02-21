@@ -357,7 +357,7 @@ class TranslationResourceIT {
         Translation partialUpdatedTranslation = new Translation();
         partialUpdatedTranslation.setId(translation.getId());
 
-        partialUpdatedTranslation.entityType(UPDATED_ENTITY_TYPE).entityId(UPDATED_ENTITY_ID).lang(UPDATED_LANG);
+        partialUpdatedTranslation.entityType(UPDATED_ENTITY_TYPE).lang(UPDATED_LANG).value(UPDATED_VALUE);
 
         restTranslationMockMvc
             .perform(
