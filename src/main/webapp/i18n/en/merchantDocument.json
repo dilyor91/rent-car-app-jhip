@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "merchantDocument": {
+      "home": {
+        "title": "Merchant Documents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Merchant Document",
+        "createOrEditLabel": "Create or edit a Merchant Document",
+        "search": "Search for Merchant Document",
+        "notFound": "No Merchant Documents found"
+      },
+      "created": "A new Merchant Document is created with identifier {{ param }}",
+      "updated": "A Merchant Document is updated with identifier {{ param }}",
+      "deleted": "A Merchant Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Merchant Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Merchant Document"
+      },
+      "id": "ID",
+      "merchant": "Merchant",
+      "document": "Document"
+    }
+  }
+}

@@ -321,6 +321,8 @@ class CarTemplateParamResourceIT {
         CarTemplateParam partialUpdatedCarTemplateParam = new CarTemplateParam();
         partialUpdatedCarTemplateParam.setId(carTemplateParam.getId());
 
+        partialUpdatedCarTemplateParam.paramVal(UPDATED_PARAM_VAL);
+
         restCarTemplateParamMockMvc
             .perform(
                 patch(ENTITY_API_URL_ID, partialUpdatedCarTemplateParam.getId())

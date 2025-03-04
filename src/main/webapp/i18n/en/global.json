@@ -29,7 +29,10 @@
         "carTemplateParam": "Car Template Param",
         "carAttachment": "Car Attachment",
         "modelAttachment": "Model Attachment",
-        "carMileage": "Car Mileage"
+        "carMileage": "Car Mileage",
+        "document": "Document",
+        "docAttachment": "Doc Attachment",
+        "merchantDocument": "Merchant Document"
       },
       "account": {
         "main": "Account",

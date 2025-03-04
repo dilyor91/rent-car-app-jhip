@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20250304055504"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [],
+  "name": "MerchantDocument",
+  "relationships": [
+    {
+      "otherEntityName": "merchant",
+      "relationshipName": "merchant",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "document",
+      "relationshipName": "document",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

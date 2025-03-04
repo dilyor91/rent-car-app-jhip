@@ -20,6 +20,9 @@ import carTemplateParam from 'app/entities/car-template-param/car-template-param
 import carAttachment from 'app/entities/car-attachment/car-attachment.reducer';
 import modelAttachment from 'app/entities/model-attachment/model-attachment.reducer';
 import carMileage from 'app/entities/car-mileage/car-mileage.reducer';
+import document from 'app/entities/document/document.reducer';
+import docAttachment from 'app/entities/doc-attachment/doc-attachment.reducer';
+import merchantDocument from 'app/entities/merchant-document/merchant-document.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const entitiesReducers = {
@@ -45,6 +48,9 @@ const entitiesReducers = {
   carAttachment,
   modelAttachment,
   carMileage,
+  document,
+  docAttachment,
+  merchantDocument,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
 };
 
