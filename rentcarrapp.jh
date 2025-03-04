@@ -161,11 +161,33 @@ enum MileageEnum {
   KILOMETRES, MILES
 }
 
+entity Document {
+   name String
+   docType DocTypeEnum
+   givenDate Instant
+   issuedDate Instant
+   docStatus Boolean
+}
+
+enum DocTypeEnum {
+   BIO_PASSPORT,
+   ID_CARD,
+   DRIVER_LICENCE,
+   CERTIFICATE
+}
+
+relationship ManyToOne {
+   DocAttachment{document} to Document
+   DocAttachment{attachment} to Attachment
+   MerchantDocument{merchant} to Merchant
+   MerchantDocument{document} to Document
+}
+
 
 
 
 // Set pagination options
-paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam, CarTemplate, CarTemplateParam, CarAttachment, ModelAttachment with pagination
+paginate Merchant, MerchantRole, Param, ParamValue, Translation, Color, Model, Car, CarParam, CarTemplate, CarTemplateParam, CarAttachment, ModelAttachment, Document with pagination
 
 // Use Data Transfer Objects (DTO)
 dto * with mapstruct
