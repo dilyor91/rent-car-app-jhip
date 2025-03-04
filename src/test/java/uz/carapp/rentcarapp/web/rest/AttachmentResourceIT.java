@@ -356,7 +356,7 @@ class AttachmentResourceIT {
         Attachment partialUpdatedAttachment = new Attachment();
         partialUpdatedAttachment.setId(attachment.getId());
 
-        partialUpdatedAttachment.fileSize(UPDATED_FILE_SIZE);
+        partialUpdatedAttachment.fileSize(UPDATED_FILE_SIZE).originalFileName(UPDATED_ORIGINAL_FILE_NAME);
 
         restAttachmentMockMvc
             .perform(

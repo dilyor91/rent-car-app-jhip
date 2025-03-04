@@ -1,0 +1,9 @@
+export enum DocTypeEnum {
+  BIO_PASSPORT = 'BIO_PASSPORT',
+
+  ID_CARD = 'ID_CARD',
+
+  DRIVER_LICENCE = 'DRIVER_LICENCE',
+
+  CERTIFICATE = 'CERTIFICATE',
+}

@@ -24,6 +24,9 @@ import CarTemplateParam from './car-template-param';
 import CarAttachment from './car-attachment';
 import ModelAttachment from './model-attachment';
 import CarMileage from './car-mileage';
+import Document from './document';
+import DocAttachment from './doc-attachment';
+import MerchantDocument from './merchant-document';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 export default () => {
@@ -53,6 +56,9 @@ export default () => {
         <Route path="car-attachment/*" element={<CarAttachment />} />
         <Route path="model-attachment/*" element={<ModelAttachment />} />
         <Route path="car-mileage/*" element={<CarMileage />} />
+        <Route path="document/*" element={<Document />} />
+        <Route path="doc-attachment/*" element={<DocAttachment />} />
+        <Route path="merchant-document/*" element={<MerchantDocument />} />
         {/* jhipster-needle-add-route-path - JHipster will add routes here */}
       </ErrorBoundaryRoutes>
     </div>

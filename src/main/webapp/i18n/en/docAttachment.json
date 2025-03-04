@@ -1,0 +1,26 @@
+{
+  "rentcarappjhipApp": {
+    "docAttachment": {
+      "home": {
+        "title": "Doc Attachments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Doc Attachment",
+        "createOrEditLabel": "Create or edit a Doc Attachment",
+        "search": "Search for Doc Attachment",
+        "notFound": "No Doc Attachments found"
+      },
+      "created": "A new Doc Attachment is created with identifier {{ param }}",
+      "updated": "A Doc Attachment is updated with identifier {{ param }}",
+      "deleted": "A Doc Attachment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Doc Attachment {{ id }}?"
+      },
+      "detail": {
+        "title": "Doc Attachment"
+      },
+      "id": "ID",
+      "document": "Document",
+      "attachment": "Attachment"
+    }
+  }
+}
